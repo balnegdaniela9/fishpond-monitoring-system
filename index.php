@@ -1,0 +1,1 @@
+<?php echo "Fishpond System is working!"; ?>
