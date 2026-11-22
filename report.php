@@ -50,23 +50,7 @@ foreach ($cycles as $c) {
 <html>
 <head>
     <title>Production Report</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #e8f4f8; margin: 0; }
-        .nav { background: #0b6e99; color: #fff; padding: 15px 25px; display: flex; justify-content: space-between; align-items: center; }
-        .nav a { color: #fff; text-decoration: none; margin-left: 10px; }
-        .content { padding: 25px; max-width: 1050px; margin: auto; }
-        .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        table { width: 100%; border-collapse: collapse; font-size: 14px; }
-        th, td { padding: 9px; text-align: left; border-bottom: 1px solid #ddd; }
-        th { background: #0b6e99; color: #fff; }
-        button { padding: 9px 16px; background: #0b6e99; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
-        .total { font-weight: bold; background: #f1f8fb; }
-        @media print {
-            .nav, button { display: none; }
-            body { background: #fff; }
-            .card { box-shadow: none; }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="nav">
@@ -105,7 +89,7 @@ foreach ($cycles as $c) {
                     <td colspan="2">₱<?php echo number_format($grand_income, 2); ?></td>
                 </tr>
             </table>
-            <p style="font-size:12px;color:#555">FCR (Feed Conversion Ratio) = total feed / total harvest. Mas ubos mas maayo.</p>
+            <p class="note">FCR (Feed Conversion Ratio) = total feed / total harvest. Mas ubos mas maayo.</p>
         </div>
     </div>
 </body>
