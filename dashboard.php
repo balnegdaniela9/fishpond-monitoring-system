@@ -72,6 +72,9 @@ $latest = $stmt->get_result();
             <a href="readings.php">Readings</a>
             <a href="alerts.php">Alerts</a>
             <a href="logout.php">Logout (<?php echo htmlspecialchars($_SESSION['full_name']); ?>)</a>
+             <a href="cycles.php">Cycles</a>
+<a href="report.php">Report</a>
+
         </span>
     </div>
     <div class="content">
