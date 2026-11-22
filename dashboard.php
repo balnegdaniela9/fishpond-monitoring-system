@@ -26,7 +26,7 @@ if (!isset($_SESSION['user_id'])) {
     </div>
     <div class="content">
         <h2>Welcome, <?php echo htmlspecialchars($_SESSION['full_name']); ?>!</h2>
-        <p>Dashboard is working. Ponds, water readings, and alerts will appear here.</p>
+        <p><a href="ponds.php">Manage Ponds →</a></p>
     </div>
 </body>
 </html>
